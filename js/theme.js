@@ -2,6 +2,7 @@
 let darkTheme = localStorage.getItem("darkTheme");
 const themeToggle = document.querySelector("#themeButton");
 
+/*
 // Apply Dark theme
 const enableDark = () => {
   document.body.classList.add("darktheme");
@@ -9,6 +10,7 @@ const enableDark = () => {
   themeToggle.innerHTML = `<i id="themeButton__icon" data-feather="sun"></i>`;
   feather.replace();
 };
+*/
 
 // Remove Dark theme
 const disableDark = () => {
